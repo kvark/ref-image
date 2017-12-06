@@ -1,0 +1,15 @@
+[package]
+name = "ref_image"
+description = "Reference test image comparisons"
+version = "0.1.0"
+authors = ["Dzmitry Malyshau <kvark@mozilla.com>"]
+
+[lib]
+name = "ref_image"
+
+[[bin]]
+name = "compare"
+
+[dependencies]
+base64 = "0.8"
+image = "0.18"
